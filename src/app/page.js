@@ -24,7 +24,7 @@ export default function Home() {
         "http://relsofttimsthree-001-site1.atempurl.com/api/Registration/login",
         user
       );
-      console.log("Login successful", response.data);
+      console.log("Login successful.", response.data);
       alert(response.data);
      
     } catch (error) {
